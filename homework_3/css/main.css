@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, span, strong, b, i {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav {
+  background: #3c3838;
+  text-align: left;
+  padding: 15px 0px;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.nav__item-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.nav__list {
+  text-align: center;
+}
+
+.header {
+  background: url('../static/header_back.svg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 122px;
+  padding-bottom: 100px;
+}
+
+.header__title, .header__title2, .header__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+
+
+}
+
+.header__title {
+  font-size: 29px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+
+.header__title2 {
+  font-size: 35px;
+  line-height: 41px;
+  margin-bottom: 15px;
+}
+
+.header__text {
+  font-size: 35px;
+  line-height: 41px;
+  margin-top: 15px;
+}
+
+.header__line {
+  text-align: center;
+  width: 115px;
+  border: 2px solid #FFFFFF;
+}
+
+
+.article__container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.article__image {
+  width:  100%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.article__top-list li {
+  list-style-type: none;
+}
+
+.article__top-list-unit {
+  display: inline-block;
+}
+
+.article__top-list {
+  padding-left: 0;
+}
+
+.article__list {
+  padding: 0%;
+  margin: 0%;
+}
+
+.article__list li {
+  list-style-type: none;
+  margin-top: 0%;
+}
+
+.article__headline {
+  margin-bottom: 0%;
+  font-size: medium;
+
+}
+
+.article__container p {
+  margin-top: 0;
+
+}
+
+.article__text {
+  margin: auto;
+}
+
+#footer {
+  text-align: center;
+  background: #3C3838;
+  padding: 55px;
+  margin-top: 81px;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer__list {
+  margin-top: 10px;
+  padding-left: 0; /* костыль. удалять через ресеты */
+}
+
+.footer__list-elem {
+  display: inline-block;
+  padding: 5px;
+}
+
+.footer__icon {
+  width: 62px;
+  height: 62px;
+}
+
+.footer__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.blog {
+  margin-top: 100px;
+}
+
+.blog__item {
+  margin-bottom: 40px;
+
+}
+
+.col-4 {
+  width: 33.333333%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+}
+
+.blog__link {
+  text-decoration: none;
+}
+
+.blog__image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.blog__title, .blog__list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.blog__title {
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.blog__list {
+
+}
+
+.blog__list-item {
+  font-size: 20px;
+  line-height: 23px;
+  color: #535353;
+  display: inline-block;
+  padding-right: 5px;
+}
