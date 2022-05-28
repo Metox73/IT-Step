@@ -7,10 +7,145 @@ body {
 	font-weight: 300;
 }
 
+a {
+	text-decoration: none;
+}
 
+.nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+.nav__logo {
 
+}
 
+.nav__img_logo {
+	width: 139px;
+	height: 42px;
+}
+
+.nav__tel {
+	text-align: right;
+}
+
+.nav__link {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #E64242;
+
+}
+
+.nav__menu {
+	margin-top: 43px;
+	margin-bottom: 14px;
+
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.nav__item__link {
+	font-family: 'Cormorant';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.header {
+	background: url('../static/fon.png') no-repeat;
+	background-size: cover;
+	background-position: cover;
+	padding-top: 94px;
+	padding-bottom: 60px;
+}
+
+.header__h1 {
+
+}
+
+.header__title {
+	font-size:  43px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+
+}
+
+.header__h2 {
+	text-align: center;
+}
+
+.header__utp {
+	font-size:  28px;
+	line-height: 33px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.header__btn {
+	background: #FF1616;
+	padding: 11px 43px;
+	display: inline-block;
+	font-size: 24px;
+	line-height:  32px;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#repertuar {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.repertuar__item {
+
+}
+
+.repertuar__link {
+
+}
+
+.repertuar__block-image {
+	height: 341px;
+	z-index: 1;
+}
+
+.repertuar__block-text {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	height: 104px;
+	z-index: 2;
+	margin-top: -104px;
+	position: relative;
+}
+
+.repertuar__img {
+	weight: 100%;
+	height: 341px;
+}
+
+.repertuar__title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF
+}
 
 @media screen and (min-width:0px) and (max-width:1199px) {
 
