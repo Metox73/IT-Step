@@ -1,0 +1,52 @@
+/*стили*/
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1199px) { 
+
+}
+
+@media screen and (min-width:0px) and (max-width:991px)  {
+	.col-4 {
+		flex: 0 0 50%;
+    max-width: 50%;
+	}
+}
+@media screen and (min-width:0px) and (max-width:771px) {
+	.block1 {
+		order: 4;
+	}
+	.block2 {
+		order: 3;
+	}
+	.block3 {
+		order: 1;
+	}
+	.block4 {
+		order: 2;
+	}
+	.col-4 {
+	flex: 0 0 100%;
+    max-width: 100%;
+	}
+	}
+
+@media screen and (min-width:0px) and (max-width:650px) {
+	
+}
+
+@media screen and (min-width:0px) and (max-width:550px) {
+	
+}
+
+@media screen and (min-width:0px) and (max-width:450px) {
+	
+}
+
+@media screen and (min-width:0px) and (max-width:350px) {
+	
+}
