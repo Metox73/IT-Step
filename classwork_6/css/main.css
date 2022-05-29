@@ -112,7 +112,7 @@ a {
 }
 
 .repertuar__item {
-
+	margin-bottom: 40px;
 }
 
 .repertuar__link {
@@ -145,6 +145,204 @@ a {
 	font-size: 18px;
 	line-height: 24px;
 	color: #FFFFFF
+}
+
+.repertuar__button {
+	margin-top: 64px;
+	margin-bottom: 61px;
+}
+
+.repertuar__button-link, .migel__btn {
+	font-size: 24px;
+	line-height: 32px;
+	background: #FF1616;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px 40px;
+}
+
+#trupa {
+
+}
+
+.trupa__title, .kurs__title, .migel__title {
+	font-family: 'Roboto Slab';
+	font-size: 30px;
+	line-height: 40px;
+	color: #000000;
+	margin-bottom: 40px;
+}
+
+.trupa__item {
+	margin-bottom: 40px;
+}
+
+.trupa__image {
+	width: 100%;
+	height: auto;
+}
+
+.trupa__name {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+	margin-top: 10px;
+}
+
+.trupa__link {
+	font-family: 'Roboto Slab';
+	font-size: 20px;
+	line-height: 26px;
+	display: inline-block;
+	color: #000000;
+}
+
+#kurs {
+	margin-top: 64px;
+}
+
+.kurs__title {
+
+}
+
+.kurs__block {
+	margin-bottom: 40px;
+	align-items: center;
+}
+
+.kurs__block-img {
+
+}
+
+.kurs__block-img img {
+	width: 100px;
+	height: 100px;
+}
+
+.kurs__block-text {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 40px;
+	color: #000000;
+}
+
+.migel {
+	margin-top: 100px;
+}
+
+.migel__title {
+	margin-bottom: 50px;
+}
+
+.migel__block-img {
+
+}
+
+.migel__image {
+
+}
+
+.migel__block-text {
+
+}
+
+.migel__name {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 14px;
+}
+
+.migel__text {
+	font-family: 'Roboto Slab';
+	font-size: 24px;
+	line-height: 32px;
+	box-sizing: border-box;
+}
+
+.migel__btn {
+
+}
+
+.migel__block-btn {
+	padding-top: 96px;
+	padding-bottom: 71px;
+}
+
+#contact {
+	background: #0a0909;
+	margin-top: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.contact__number {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-size: 33px;
+	line-height: 44px;
+	color: #FFFFFF;
+}
+
+.contact__number__title {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-size: 33px;
+	margin-bottom: 40px;
+}
+
+.contact__number-link {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-size: 33px;
+	color: #FFFFFF;
+}
+
+.contact__soc {
+
+}
+
+.contact__soc-link {
+
+}
+
+.contact__soc-img {
+	width: 60px;
+	height: 60px;
+}
+
+.contact__forma {
+
+}
+
+.form__input {
+	width: 100%;
+	height: 50px;
+	background: #FEFEFE;
+	border: 1px solid #FEFEFE;
+	margin-bottom: 15px;
+}
+
+.form__textarea {
+	width: 100%;
+	height: 50px;
+	background: #FEFEFE;
+	border: 1px solid #FEFEFE;
+	margin-bottom: 20px;
+}
+
+.form__btn {
+	width: 100%;
+	height: 50px;
+	background: #FF1616;
+	border: 1px solid #FF1616;
+	margin-bottom: 15px;
 }
 
 @media screen and (min-width:0px) and (max-width:1199px) {
