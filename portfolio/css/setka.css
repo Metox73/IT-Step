@@ -165,3 +165,9 @@ img {
 		max-width: 1200px;
 	}
 }
+
+@media (min-width: 1450px) {
+	.container {
+		max-width: 1500px;
+	}
+}

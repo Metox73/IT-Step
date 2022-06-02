@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body {
+  background: #1f1f1f;
+}
+
+#nav {
+  padding-top: 109px;
+  position: relative;
+  z-index: 99999;
+}
+
+.nav__initial {
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.nav__list {
+  /* text-align: right; */
+  margin-left: 113px;
+}
+
+.nav__list-item {
+  display: inline-block;
+  margin-right: 75px;
+  z-index: 4;
+}
+
+.nav__link {
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header__list {
+  margin-top: 235px;
+}
+
+.header__list-item {
+  font-family: 'Poppins';
+  color: #FFFFFF;
+}
+
+.header__text {
+  font-weight: 300;
+  font-size: 25.4046px;
+  line-height: 38px;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+}
+
+.header__name {
+  font-weight: 600;
+  font-size: 67.1051px;
+  line-height: 101px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__title {
+  font-weight: 300;
+  font-size: 19.8893px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.header__button {
+  width: 277.99px;
+  height: 71.95px;
+  background: linear-gradient(180deg, #15B9B9 0%, #3C1DFF 100%);
+  border-radius: 10px;
+}
+
+.header__button-link {
+  font-family: 'Poppins';
+  font-size: 25.4046px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  line-height: 70px;
+
+color: #FFFFFF;
+}
+
+.header__image-block {
+  position: relative;
+
+}
+
+.header__image {
+  position: relative;
+  width: 566.43px;
+  height: 807.87px;
+  top: -190px;
+  object-fit: cover;
+}
+
+.client {
+  padding-top: 48px;
+}
+
+.client__row {
+
+}
+
+.client__list {
+  padding-left: 55px;
+}
+
+.client__list-item {
+  display: inline-block;
+  padding-right: 68px;
+}
+
+.client__link {
+  font-family: 'Questrial';
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 40.1478px;
+  line-height: 41px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.about {
+  padding-top: 180px;
+  width: 1903px;
+  height: 800px;
+}
+
+.about__image-block {
+  height: 600px
+
+}
+
+.about__image {
+  width: 470.32px;
+  height: 518.9px;
+  position: relative;
+  left: 38px;
+  z-index: 99999;
+}
+
+.about__image-back {
+  top: -560px;
+  padding-top: -560px;
+  width: 383.97px;
+  height: 542.92px;
+  position: relative;
+}
+
+.about__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 93.8844px;
+  line-height: 141px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  position: relative;
+  top: -100px;
+}
+
+.about__A-image {
+  width: 94.52px;
+  height: 128.44px;
+}
+
+.about__text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  position: relative;
+  top: -100px;
+}
+
+.skills {
+  color: #FFFFFF;
+}
+
+.skills__text-block {
+  margin-bottom: 31px;
+}
+
+.skills__line {
+  width: 174.78px;
+  color: #FFFFFF;
+  position: absolute;
+}
+
+.skills__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56.4822px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+}
+
+.skills__diagram-block {
+  margin-bottom: 122px;
+}
+
+.skills__diagram {
+  margin-bottom: 44px;
+  margin: auto;
+}
+
+.skills__inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.skills__diagram-text {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20.3849px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.pie {
+  --w:320px;
+  width: var(--w);
+  aspect-ratio: 1;
+  position: relative;
+  display: flex;
+  place-content: center;
+}
+
+.pie__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56.4822px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.pie:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 0;
+  z-index: 99;
+  background:conic-gradient(var(--main-color) calc(var(--percentage)*20%),#0000 0);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--border-thickness)),#000 calc(100% - var(--border-thickness)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--border-thickness)),#000 calc(100% - var(--border-thickness)));
+}
+
+
+.skills__line-diagrams-block {
+
+}
+
+.skills__language {
+
+}
+
+.skills__line-diagrams-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 56.4822px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.skills__line-diagrams-line {
+  width: 478.01px;
+  margin-left: 0;
+  margin-bottom: 36px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.skills__line-diagrams-text {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 29.5477px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+}
+
+.skills__english-progressbar {
+  height: 20px;
+	position: relative;
+	background: #0000;
+	padding: 3px;
+  border-radius: 20px;
+}
+
+.skills__english-progressbar > span {
+  display: block;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.skills__english-progressbar > span:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.skills__russian-progressbar {
+  height: 20px;
+	position: relative;
+	background: #0000;
+	padding: 3px;
+  padding-bottom: 26px;
+  border-radius: 20px;
+}
+
+.skills__russian-progressbar > span {
+  display: block;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.skills__russian-progressbar >span:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.skills__studies {
+
+}
+
+.skills__studies-headline {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 56.4822px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.skills__studies-line {
+  width: 478.01px;
+  margin-left: 0;
+  margin-bottom: 36px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.skills__studies-content-block {
+
+}
+
+.skills__studies-image-block {
+
+}
+
+.skills__studies-icon {
+  width: 96.14px;
+  height: 96.14px;
+}
+
+.skills__studies-text-block {
+
+}
+
+.skills__studies-text-bock-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 29.5477px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.skills__studies-text-block-textarea {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 18.1936px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #E3E1E1;
+}
+
+.work-exp {
+
+}
+
+.work-exp__headline-block {
+
+}
+
+.work-exp__title {
+
+}
+
+.work-exp__item {
+
+}
+
+.work-exp__image-block {
+
+}
+
+.work-exp__image {
+
+}
+
+.work-exp__image-text-block {
+
+}
+
+.work-exp__image-title {
+
+}
+
+.work-exp__image-text {
+
+}
+
+.work-exp__image-date {
+  
+}
