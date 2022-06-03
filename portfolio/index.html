@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/setka.css">
     <link rel="stylesheet" href="css/main.css">
+
   </head>
 
 
@@ -20,7 +21,7 @@
         <div class="row">
 
           <div class="col-3">
-            <p class="nav__initial tc">Vlad Kuzmin</p>
+            <p class="nav__initial tl">Vlad Kuzmin</p>
           </div>
 
           <div class="col-9 justify__content__center">
@@ -52,9 +53,15 @@
               <li class="header__list-item"><h1 class="header__title">BACKEND DEVELOPMENT</h1></li>
             </ul>
 
-            <div class="row header__button">
-              <div class="col-12 tc">
+            <!-- <div class="row header__button">
+              <div class="col-4 tc">
                 <a class="header__button-link" href="#">Download CV</a>
+              </div>
+            </div> -->
+
+            <div class="row">
+              <div class="col-4 header__button">
+                <a class="header__button-link tc" href="#">Download CV</a>
               </div>
             </div>
 
@@ -88,7 +95,7 @@
 
     <section class="about">
 
-      <div class="container ">
+      <div class="container">
         <div class="row">
 
           <div class="col-6 about__image-block">
@@ -123,19 +130,19 @@
 
         <div class="row skills__diagram-block justify__content__center">
 
-          <div class="col-4">
+          <div class="col-4 skills__diagram-container">
               <div class="pie skills__diagram" style="--percentage:4.7;--main-color:#15B9B9;--border-thickness:25px"><p class="pie__text">4.7</p></div>
               <p class="skills__diagram-text tc">Python</p>
           </div>
 
-          <div class="col-4">
+          <div class="col-4 skills__diagram-container">
 
             <div class="pie skills__diagram" style="--percentage:3.5;--main-color:#15B9B9;--border-thickness:25px"><p class="pie__text">3.5</p></div>
             <p class="skills__diagram-text tc">CSS&HTML</p>
 
           </div>
 
-          <div class="col-4">
+          <div class="col-4 skills__diagram-container">
 
             <div class="pie skills__diagram" style="--percentage:4.5;--main-color:#15B9B9;--border-thickness:25px"><p class="pie__text">4.5</p></div>
             <p class="skills__diagram-text tc">Soft Skills</p>
@@ -176,7 +183,7 @@
 
               <div class="col-10 skills__studies-text-block">
                 <h2 class="skills__studies-text-bock-title">Ulyanovsk State Technical University (UlSTU)</h2>
-                <p class="skills__studies-text-block-textarea">BBA 2020</p>
+                <p class="skills__studies-text-block-textarea">BBA 2020-2024</p>
               </div>
 
             </div>
@@ -189,7 +196,7 @@
 
               <div class="col-10 skills__studies-text-block">
                 <h2 class="skills__studies-text-bock-title">IT-Academy "TOP"</h2>
-                <p class="skills__studies-text-block-textarea">BBA 2022</p>
+                <p class="skills__studies-text-block-textarea">BBA 2022-2023</p>
               </div>
 
             </div>
@@ -209,6 +216,7 @@
 
           <div class="col-12 work-exp__headline-block">
             <h2 class="work-exp__title">My Work Expiriance</h2>
+             <div class="work-exp__line"><hr></div>
           </div>
 
         </div>
@@ -243,6 +251,25 @@
 
       </div>
     </section>
+
+    <footer id="footer">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 footer__content">
+            <h2 class="footer__title">Intrested in My Work</h2>
+            <p class="footer__text">Download My CV To Know More About Me</p>
+          </div>
+        </div>
+
+        <div class="row justify__content__center">
+          <div class="col-3 footer__button tc">
+            <a class="footer__button-link" href="#">Download CV</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
 
 
   </body>
