@@ -17,9 +17,12 @@
       document.write('Hello world!');
       document.getElementById('demo').innerHTML = 'Hello world!'; /* Вывод сообщения в тег p по id */
 
-      var a, b;
+      var a, b, z, y; /*Объявление переменных. Предпочтительно указывать в начале скрипта.*/
       a = 10;
       b = 5;
+      z = '10'
+      y = '5'
+
       document.write("<br>");
       document.write(a+b);
       document.write("<br>");
@@ -32,9 +35,39 @@
       document.write(a**b);
       document.write("<br>");
       document.write(a%b);
+      document.write("<br>");
+      document.write("<hr>");
+      document.write(z);
+      document.write("<br>");
+      document.write(y);
+      document.write("<br>");
+      document.write(z+y + '<br>');
 
+      a++;
+      document.write(a + '<br>');
+      b--;
+      document.write(b + '<br>');
+
+      /*Операнды сравнения === - строго равно (вплоть до типа данных), !== - строго неравно.*/
+      document.write(y == z);
+      document.write(y === z);
     </script>
 
+    <h2>Task</h2>
+    <p id="response"></p>
+
+    <script type="text/javascript">
+
+      var main_task = 15, optional_task = 20, main_person, optional_person, total;
+
+      main_person = prompt('Введите кол-во сделаных обязательных задач: ');
+      optional_person = prompt('Введите кол-во сделаных доп задач: ');
+
+      total = main_task * main_person + optional_task * optional_person;
+
+      document.getElementById('response').innerHTML = total;
+
+    </script>
 
   </body>
 
