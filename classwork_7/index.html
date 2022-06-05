@@ -60,14 +60,57 @@
 
       var main_task = 15, optional_task = 20, main_person, optional_person, total;
 
-      main_person = prompt('Введите кол-во сделаных обязательных задач: ');
-      optional_person = prompt('Введите кол-во сделаных доп задач: ');
+      main_person = Number(prompt('Введите кол-во сделаных обязательных задач: '));
+      optional_person = +prompt('Введите кол-во сделаных доп задач: ');
 
       total = main_task * main_person + optional_task * optional_person;
 
       document.getElementById('response').innerHTML = total;
 
     </script>
+
+    <h2>Task2</h2>
+    <p id="response_2"></p>
+
+    <script type="text/javascript">
+      var weekly_hours, hour_salary, total_2;
+
+      weekly_hours = +prompt('Введите кол-во рабочих часов в неделю');
+      hours_salary = +prompt('Введите желаемую зарплату в час');
+
+      total_2 = weekly_hours * hour_salary * 4;
+      document.getElementById('response_2').innerHTML = total_2;
+    </script> -->
+
+    <!-- <h2>Task3</h2>
+    <p id="response_3"></p>
+
+    <script type="text/javascript">
+      var monthly_salary, weekend_wrking_hours, total_3;
+
+      monthly_salary = +prompt("Введите среднемесячную зп");
+      weekend_wrking_hours = +prompt("Введите кол-во отработаных в выходные часов");
+
+      total_3 = monthly_salary * 0.1 * weekend_wrking_hours;
+      document.getElementById('response_3').innerHTML = total_3;
+
+    </script>
+
+    <h2>Task_4</h2>
+    <p id="responce_4"></p>
+
+    <script type="text/javascript">
+
+      var m, n, total_4;
+
+      m = +prompt('Введите число первого вида конфет ');
+      n = +prompt('Введите число второго вида конфет ');
+
+      total_4 = m % n * n % m + 1;
+      document.getElementById('responce_4').innerHTML = total_4;
+
+    </script>
+
 
   </body>
 
