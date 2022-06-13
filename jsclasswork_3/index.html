@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+
+  <body>
+
+    <script type="text/javascript">
+      makeHeader('Знакомство с функциями')
+      function getRandText(n){
+        var txt='Случайные числа от 1 до 10: <br>';
+        for(var k=1; k<=n; k++){
+          txt += myRand()+'*';
+        }
+        txt + '<br>';
+        return txt;
+      }
+
+      document.write(getRandText(30) + '<br>');
+
+      function myRand() {
+        return 1+Math.floor(29*Math.random());
+      }
+
+      function makeHeader(t) {
+        document.write('<h4>' + t + '</h4>')
+      }
+
+    </script>
+
+    <script type="text/javascript">
+
+      function additional(a, b){
+        var a, b;
+        return a + b;
+      }
+
+      document.write(additional(22, 2) + '<br>');
+
+    </script>
+
+    <!-- <script type="text/javascript">
+
+      var name, firstname;
+
+      name = prompt('Enter your name: ');
+      firstname = prompt('Enter surname: ');
+
+      function text(name, firstname) {
+        document.write(name + ' ' + firstname + ', hello!');
+      }
+
+      text(name, firstname);
+
+    </script> -->
+    <br>
+
+    <script type="text/javascript">
+
+      var myText = 'Глобальная переменная';
+      document.write(myText + '<br>');
+
+      function show() {
+        var myText;
+        myText='Локальная переменная';
+        document.write(myText + '<br>');
+      }
+      show();
+      document.write(myText + '<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      document.write('<h4>Создание массива</h4>');
+
+      var nums=[10, true, 'текст', 75];
+
+      document.write(nums + '<br>');
+
+      for(var k in nums){
+        document.write(nums[k] + ' | ');
+      }
+
+    </script>
+
+    <script type="text/javascript">
+
+      document.write('<h4>Добавление в массив</h4>');
+      var nums1 = [1];
+
+      nums1[0] = 10;
+      nums1[1] = 20;
+      nums1[2] = 30;
+
+      for(var i in nums1) {
+        document.write(nums1[i] + '<br>');
+      }
+
+    </script>
+
+    <script type="text/javascript">
+
+      document.write('<h4>Array</h4>')
+
+      var arraymas = new Array(10, 20, 30);
+
+      for(var i in nums1) {
+        document.write(nums1[i] + '<br>');
+      }
+
+    </script>
+
+    <script type="text/javascript">
+
+      document.write('<h4>Числа Фибоначи</h4>');
+      var n=15, k;
+
+      var fibs = new Array(1, 1);
+
+      for (i=2; i<n; i++) {
+        fibs[i] = fibs[i-1] + fibs[i-2];
+      }
+
+      for(var i in fibs) {
+        document.write(fibs[i] + ' ');
+      }
+
+    </script>
+
+    <br>
+
+    <script type="text/javascript">
+
+      document.write('<h4>_______________</h4>');
+
+      var arr = [1, 45, -3, 78, 1];
+
+      var indexx = arr.indexOf(45);
+
+      document.write(indexx + '<br>');
+
+      indexx = arr.indexOf(99);
+
+      document.write(indexx + '<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var str = 'яблоко, банан, киви';
+      var arr = str.split(',');
+      document.write(arr[0]);
+
+    </script>
+
+    <br>
+
+    <script type="text/javascript">
+
+      var arr = ['яблоко', 'банан', 'киви'];
+      var str = arr.join(' ');
+
+      document.write(str + '<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var arr = ['яблоко', 'банан', 'киви'];
+
+      document.write(arr.pop() + '<br>');
+      document.write(arr + '<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var arr = ['яблоко', 'банан', 'киви'];
+
+      document.write(arr.push('груша') + '<br>');
+      document.write(arr + '<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var arr = ['яблоко', 'банан', 'киви'];
+
+      document.write(delete arr[1,1] + '<br>');
+      document.write(arr + '<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var arr = ['яблоко', 'банан', 'киви'];
+
+      document.write(arr.splice(1,1) + '<br>');
+      document.write(arr + '<br>');
+
+    </script>
+
+  </body>
+
+
+</html>

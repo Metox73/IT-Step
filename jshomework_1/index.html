@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Домашние задание 1</title>
+  </head>
+
+
+  <body>
+    <h2>Task 1</h2>
+    <p id="responce_1"></p>
+
+    <script type="text/javascript">
+
+      var name;
+
+      name = prompt('Введите свое имя :) ');
+      document.getElementById('responce_1').innerHTML = 'Привет, ' + name + '!';
+
+    </script>
+
+    <hr>
+
+    <h2>Task 2</h2>
+    <p id="responce_2"></p>
+
+    <script type="text/javascript">
+
+      var birth, now=2022;
+
+      birth = +prompt('Введите год рождения: ');
+      document.getElementById('responce_2').innerHTML = 'Вам ' + (now - birth) + ' лет';
+
+    </script>
+
+    <hr>
+
+    <h2>Task 3</h2>
+    <p id="responce_3"></p>
+
+    <script type="text/javascript">
+
+      var onceLen;
+
+      onceLen = +prompt('Введите сторону квадрата: ');
+      document.getElementById('responce_3').innerHTML = 'Периметр квадрата состовляет: ' + onceLen * 4;
+
+    </script>
+
+    <hr>
+
+    <h2>Task 4</h2>
+    <p id="responce_4"></p>
+
+    <script type="text/javascript">
+      /*Math.PI - число Пи. Конечно можно было бы и не париться и написать просто 3.14. Но так точнее и эстетичнее :)*/
+      var radius;
+
+      radius = +prompt('Введите радиус окружности: ');
+      document.getElementById('responce_4').innerHTML = 'Площадь круга: ' + (Math.PI * radius ** 2) + 'см' ;
+
+    </script>
+
+    <hr>
+
+    <h2>Task 5</h2>
+    <p id="responce_5"></p>
+
+    <script type="text/javascript">
+
+      var distanceBetweenCities, desiredTravelTime;
+
+      distanceBetweenCities = +prompt('Введите расстояние между двумя городами в км: ');
+      desiredTravelTime = +prompt('Введите за сколько часов вы хотите туда добраться: ');
+      document.getElementById('responce_5').innerHTML = 'Что бы успеть двигайтесь со скоростью ' + (distanceBetweenCities / desiredTravelTime) + ' км/ч';
+
+    </script>
+
+    <hr>
+
+    <h2>Task 6</h2>
+    <p id="responce_6"></p>
+
+    <script type="text/javascript">
+
+      var eur=0.93295, usd;
+
+      usd = +prompt('Введите чило $ которое нужно конвертировать в €: ');
+      document.getElementById('responce_6').innerHTML = usd + ' $ = ' +  usd * eur + ' €';
+
+    </script>
+
+    <hr>
+
+    <h2>Task 7</h2>
+    <p id="responce_7"></p>
+
+    <script type="text/javascript">
+      /*Math.floor() - Округление к ближайшему меньшему числу*/
+
+      var fileMb=820, driveVolume;
+
+      driveVolume = +prompt('Введите объем флешки в GB: ');
+      document.getElementById('responce_7').innerHTML = 'На ваш носитель поместится: ' + Math.floor((driveVolume * 1000) / fileMb) + ' файлов по 820 mb';
+
+    </script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS-homework_2</title>
+  </head>
+
+
+  <body>
+
+    <script type="text/javascript">
+
+      var x = 10, total, ternar;
+      if(x % 2 == 0){
+        total = 'четное';
+      } else {
+        total = 'нечетное';
+      }
+
+      ternar = x % 2 == 0 ? 'четное' : 'нечетное';
+
+      document.write(total);
+      document.write('<br>');
+      document.write(ternar);
+      document.write('<br>');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var request;
+
+      request = +prompt('2x2 = 1) 2  2) 3  3) 4  4) 6');
+
+      switch (request) {
+        case 1:
+          document.write('Это не правильный ответ');
+          document.write('<br>');
+          break;
+        case 2:
+          document.write('Это не правильный ответ');
+          document.write('<br>');
+          break;
+        case 3:
+          document.write('Это правильный ответ');
+          document.write('<br>');
+          break;
+        case 2:
+          document.write('Это не правильный ответ');
+          document.write('<br>');
+          break;
+        default:
+          document.write('Нет ответа');
+          document.write('<br>');
+      }
+
+    </script>
+
+    <script type="text/javascript">
+      var password;
+
+      password = prompt('Введите пароль: ')
+
+      if (password == 'Step'||password == 'Web'||password == 'JS') {
+        document.write('Подтверждено <br>');
+      } else {
+        document.write('Отклоненно <br>');
+      }
+
+    </script>
+
+    <script type="text/javascript">
+      var num;
+
+      num = prompt('Input number: ')
+
+      if (num >= 0 && num <= 100) {
+        document.write('Принадлежит <br>');
+      } else {
+        document.write('Непринадлежит <br>');
+      }
+
+    </script>
+
+    <!-- <script type="text/javascript">
+      var x;
+
+      x = prompt('Input X: ');
+
+      switch (x) {
+        case (x <= 0 && x <= 100):
+          document.write('Принадлежит диапазону 0...100 <br>');
+          break;
+        case (x <= 101 && x <= 200):
+          document.write('Принадлежит диапазону 101...200 <br>');
+          break;
+        case (x <= 201 && x <= 300):
+          document.write('Принадлежит диапазону 201...300 <br>');
+          break;
+        default:
+          document.write('Не принадлежит ни одному из диапазонов <br>')
+      }
+
+    </script> -->
+
+    <!-- <script type="text/javascript">
+
+      var month = 0, creditAmount, paymentCredit, creditRate;
+
+			creditRate = +prompt('Кредитная ставка: ');
+			paymentCredit = +prompt('Ежемесячный платеж: ');
+			creditAmount = +prompt('Сумма кредита: ');
+      a = creditAmount * (creditRate/100/12);
+      creditAmount += a;
+
+			while (creditAmount > 0) {
+				creditAmount -= paymentCredit;
+				month++;
+			}
+			document.write(month);
+
+    </script>
+
+    <script type="text/javascript">
+      var txt;
+      do {
+        txt = prompt('да или нет');
+      } while(txt!='да' && txt!='нет');
+
+    </script>
+
+    <script type="text/javascript">
+      var a = 10;
+
+      do {
+        document.write(a + ' ');
+      } while (a--);
+
+    </script> -->
+
+    <script type="text/javascript">
+      var i, a;
+      a = +prompt('Input number: ');
+
+      for(i=0; i<=a; i++){
+        if (i%2==0){
+          document.write(i + ' ');
+        }
+      }
+    </script>
+
+  </body>
+
+
+</html>
