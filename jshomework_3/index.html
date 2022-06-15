@@ -56,22 +56,36 @@
       width = +prompt('Input width of rectangle: ');
       length = +prompt('Input length of rectangle: ');
 
-      function rectSquare(width, length) {
+      function rectArea(width, length) {
 
         var square;
-        square = width * length;
+
+        if (width == 0 || length == 0) {
+
+          if (width == 0) {
+            square = 4 * length;
+          } else {
+            square = 4 * width;
+          }
+
+        } else {
+          square = width * length;
+        }
 
         return square;
 
       }
 
-      document.write('Площадь прямоугольника (S) = ' + rectSquare(width, length));
-
+      document.write('Площадь прямоугольника (S) = ' + rectArea(width, length));
 
     </script>
 
     <br>
     <hr>
+
+    <script type="text/javascript">
+
+    </script>
 
   </body>
 
