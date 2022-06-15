@@ -138,6 +138,7 @@
       }
 
       function generatorPerfectNum(min, max) {
+
         var perfectList = [];
 
         for (var i = min; i <= max; i++) {
@@ -153,6 +154,28 @@
       document.write('Список совершенных чисел в диапазоне от ' + min + ' до ' + max + ': ' + generatorPerfectNum(min, max));
 
     </script>
+
+    <br>
+    <hr>
+
+    <script type="text/javascript">
+
+      var time;
+      time = prompt('input time separated by commas: ');
+
+      function timeConverter(time) {
+
+        temp = time.split(',').join(':');
+        return temp;
+
+      }
+
+      document.write(timeConverter(time));
+
+    </script>
+
+    <br>
+    <hr>
 
   </body>
 
