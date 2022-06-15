@@ -110,6 +110,50 @@
 
     </script>
 
+    <br>
+    <hr>
+
+    <script type="text/javascript">
+
+      var min, max;
+      min = +prompt('input minimum range value: ');
+      max = +prompt('input minimum range value: ');
+
+      function checking(number) {
+
+        var temp = 0;
+
+        for (var i = 1; i < number; i++) {
+          if (number % i == 0) {
+            temp += i;
+          }
+        }
+
+        if (temp == number) {
+          return true;
+        } else {
+          return false;
+        }
+
+      }
+
+      function generatorPerfectNum(min, max) {
+        var perfectList = [];
+
+        for (var i = min; i <= max; i++) {
+          if (checking(i)) {
+            perfectList.push(i);
+          }
+        }
+
+        return perfectList;
+
+      }
+
+      document.write('Список совершенных чисел в диапазоне от ' + min + ' до ' + max + ': ' + generatorPerfectNum(min, max));
+
+    </script>
+
   </body>
 
 
