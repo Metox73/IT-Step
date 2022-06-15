@@ -27,7 +27,7 @@
     <br>
     <hr>
 
-    <script type="text/javascript">  //Преобразование массива в строку
+    <script type="text/javascript">  // Преобразование массива в строку.
 
       var a, b, c, ls=[];
 
@@ -35,14 +35,38 @@
       b = +prompt('Input number "b": ');
       c = +prompt('Input number "c": ');
 
-      // ls[0] = +prompt('Input number "a": '); Альтернатива, бережем память
-      // ls[1] = +prompt('Input number "b": '); Альтернатива, бережем память
-      // ls[2] = +prompt('Input number "c": '); Альтернатива, бережем память
+      // ls[0] = +prompt('Input number "a": '); Альтернатива, бережем память.
+      // ls[1] = +prompt('Input number "b": '); Альтернатива, бережем память.
+      // ls[2] = +prompt('Input number "c": '); Альтернатива, бережем память.
 
       ls.push(a, b, c);
       ls = ls.join('');
 
       document.write('Результат преобразования: ' + ls);
+
+    </script>
+
+    <br>
+    <hr>
+
+    <script type="text/javascript">  // Нахождение площади треугольника по длине и ширине.
+
+      var width, length;
+
+      width = +prompt('Input width of rectangle: ');
+      length = +prompt('Input length of rectangle: ');
+
+      function rectSquare(width, length) {
+
+        var square;
+        square = width * length;
+
+        return square;
+
+      }
+
+      document.write('Площадь прямоугольника (S) = ' + rectSquare(width, length));
+
 
     </script>
 
