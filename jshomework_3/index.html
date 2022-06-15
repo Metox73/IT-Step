@@ -10,7 +10,7 @@
 
   <body>
 
-    <script type="text/javascript">
+    <script type="text/javascript">  //Задача на факториал
 
       var n, factorial = 1;
 
@@ -23,6 +23,31 @@
       document.write(n, '! = ' + factorial);
 
     </script>
+
+    <br>
+    <hr>
+
+    <script type="text/javascript">  //Преобразование массива в строку
+
+      var a, b, c, ls=[];
+
+      a = +prompt('Input number "a": ');
+      b = +prompt('Input number "b": ');
+      c = +prompt('Input number "c": ');
+
+      // ls[0] = +prompt('Input number "a": '); Альтернатива, бережем память
+      // ls[1] = +prompt('Input number "b": '); Альтернатива, бережем память
+      // ls[2] = +prompt('Input number "c": '); Альтернатива, бережем память
+
+      ls.push(a, b, c);
+      ls = ls.join('');
+
+      document.write('Результат преобразования: ' + ls);
+
+    </script>
+
+    <br>
+    <hr>
 
   </body>
 
