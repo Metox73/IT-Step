@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>JS-Homework_2</title>
+  </head>
+
+
+  <body>
+
+    <!-- <script type="text/javascript">
+
+      var rate, counter;
+      rate = +prompt('Введите величину годовой ставки в процентах: ');
+
+      counter = 0;
+      for (var i = rate; i < array.length; i++) {
+        array[i]
+      }
+
+    </script> -->
+
+    <script type="text/javascript">
+      var randList = [], sortedList= [];
+
+      for (var i = 1; i <= 10; i++) {
+        randList.push(1+Math.floor(20*Math.random()));
+      }
+
+      for (i in randList) {
+        if (randList[i] % 4 == 0) {
+          sortedList.push(randList[i]);
+        }
+      }
+
+      document.write('unsorted: ' + randList + '<br>' + 'sorted: ' + sortedList);
+
+    </script>
+
+    <br>
+    <hr>
+
+    <script type="text/javascript">
+      var volume, days, flag = true;
+      volume = +prompt('Введите объем воды в баке: ');
+
+      days = 0;
+
+      while (flag == true) {
+        if (volume - (volume * 0.10) >= 10) {
+            volume -= (volume * 0.10);
+            days ++;
+        } else {
+          flag = false;
+        }
+
+      }
+
+      document.write('Воды осталось на ' + days + ' дней');
+
+    </script>
+
+  </body>
+
+
+</html>
