@@ -10,17 +10,25 @@
 
   <body>
 
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
 
-      var rate, counter;
+      var rate, counter, vklad;
       rate = +prompt('Введите величину годовой ставки в процентах: ');
+      vklad = +prompt('Введите вклад');
 
-      counter = 0;
-      for (var i = rate; i < array.length; i++) {
-        array[i]
+      counterRate = 0;
+      counterYears = 0;
+
+      while ((counterRate + (rate * 0.01) * vklad) <= vklad) {
+        counterRate += (rate * 0.01) * vklad;
+        counterYears ++;
       }
 
-    </script> -->
+      document.write(counterYears);
+    </script>
+
+    <br>
+    <hr>
 
     <script type="text/javascript">
       var randList = [], sortedList= [];
